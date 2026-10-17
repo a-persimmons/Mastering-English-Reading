@@ -20,6 +20,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '开始阅读', link: '/start' },
       { text: '拆句方法', link: '/method' },
+      { text: '分级训练', link: '/appendix/training-path' },
       { text: '速查表', link: '/appendix/quick-reference' },
       { text: 'GitHub', link: 'https://github.com/a-persimmons/Mastering-English-Reading' }
     ],
@@ -178,6 +179,19 @@ export default defineConfig({
         "text": "30. 终章：建立自己的独立拆句系统",
         "link": "/chapters/30"
       }
+    ]
+  }
+  ,{
+    text: '训练与工具',
+    collapsed: false,
+    items: [
+      { text: '训练路线与评分', link: '/appendix/training-path' },
+      { text: '训练 A · 五大句型', link: '/appendix/level-1' },
+      { text: '训练 B · 短语与非谓语', link: '/appendix/level-2' },
+      { text: '训练 C · 从句和逻辑', link: '/appendix/level-3' },
+      { text: '训练 D · 猜词与意译', link: '/appendix/level-4' },
+      { text: '句型速查表', link: '/appendix/quick-reference' },
+      { text: '错题记录手册', link: '/appendix/practice' }
     ]
   }
 ],
