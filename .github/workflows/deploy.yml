@@ -26,6 +26,8 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+      - name: Validate book structure and links
+        run: npm run docs:check
       - name: Build site
         run: npm run docs:build
       - name: Upload Pages artifact

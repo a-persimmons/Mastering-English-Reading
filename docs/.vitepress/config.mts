@@ -180,8 +180,8 @@ export default defineConfig({
         "link": "/chapters/30"
       }
     ]
-  }
-  ,{
+  },
+  {
     text: '训练与工具',
     collapsed: false,
     items: [
