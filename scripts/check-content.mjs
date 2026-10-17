@@ -47,11 +47,11 @@ contents.push({ name: 'index.md', body: fs.readFileSync(path.join(docs, 'index.m
 let figures = 0;
 let foldables = 0;
 for (const { name, body } of contents) {
-  const openings = (body.match(/^::: details(?:\s|$)/gm) || []).length;
+  const openings = (body.match(/^::: (?:details|tip|info|warning|danger|caution|note)(?:\s|$)/gm) || []).length;
   const closings = (body.match(/^:::\s*$/gm) || []).length;
   if (openings !== closings) errors.push('Unbalanced VitePress details: ' + name);
   if (/<details>|<\/details>/.test(body)) errors.push('Raw HTML details: ' + name);
-  foldables += openings;
+  foldables += (body.match(/^::: details(?:\s|$)/gm) || []).length;
   for (const match of body.matchAll(/(!?)\[[^\]]*\]\((\/[^)#?]+)(?:#[^)]*)?\)/g)) {
     const isImage = match[1] === '!';
     const url = decodeURI(match[2]);
