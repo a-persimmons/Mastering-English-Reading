@@ -1,35 +1,54 @@
-# 英语句子解构：从简单句到长难句
+# 英语能力进阶系列
 
-一本为中文母语、自评初高中词汇基础、认识单词却不会拆英语句子的读者设计的自学教材。
+**同一个 GitHub 仓库、同一个 VitePress 阅读站、两本互相衔接的书。**
 
-- **30 章 Markdown**：按六篇逐步建立从主干到多层从句的结构认识。
-- **48 道额外分级训练**：从五大句型延伸到语境猜词与自然意译，提供结构依据、参考译文和易错点。
-- **图示与工具**：拆句流程、从句层级、猜词流程、意译核对、随堂答案折叠区、速查表、错题复盘。
-- **三轮编辑审查**：去重复、目标导向检查、图文精修，详情见 [编辑审查记录](docs/appendix/editorial-notes.md)。
+| 系列 | 书名 | 状态 | 阅读入口 |
+| --- | --- | --- | --- |
+| 第一本 | 《英语句子解构：从简单句到长难句》 | 30章 + 48道额外练习，已完成 | [进入第一本](docs/books/reading/index.md) |
+| 第二本 | 《英语思维：从中文翻译到英语直觉》 | 7篇32章目录已规划，逐章撰写 | [进入第二本](docs/books/thinking/index.md) |
 
-## 本地开发
+阅读路径：**读懂句子结构 → 准确理解原意 → 建立英语与情境的直接联系 → 逐步自然表达**。第二本不要求彻底禁止中文；第一本也不是需要死记语法术语的考试教材。
+
+## 单仓库内容组织
+
+```text
+docs/
+├── index.md                       # 系列总首页
+├── roadmap.md                     # 两本书的学习路径
+├── books/
+│   ├── reading/                   # 第一本
+│   │   ├── index.md
+│   │   ├── start.md
+│   │   ├── method.md
+│   │   ├── chapters/01.md ... 30.md
+│   │   └── appendix/              # 练习、速查表、编辑记录
+│   └── thinking/                  # 第二本
+│       ├── index.md
+│       ├── contents.md
+│       ├── guide.md
+│       └── chapters/              # 每章一个 Markdown，逐章完成
+├── chapters/                      # 旧章节链接兼容提示页
+├── appendix/                      # 旧工具页兼容提示页
+└── .vitepress/config.mts          # 统一导航、两套侧栏
+```
+
+**不要再将新内容写回 `docs/chapters`。** 两本书的正文一律按自己的路径组织，避免侧栏串章和 URL 冲突。
+
+## 本地运行与内容校验
 
 ```bash
 npm install
+npm run docs:check
 npm run docs:dev
 npm run docs:build
 ```
 
-## 目录
+工作流 `.github/workflows/deploy.yml` 在 `main` 更新时统一检查、构建并部署两本书；不会为第二本再创建一个 Pages 项目。站点的 `base` 仍是 `/Mastering-English-Reading/`。
 
-- 课程首页：[`docs/index.md`](docs/index.md)
-- 阅读说明：[`docs/start.md`](docs/start.md)
-- 章节正文：[`docs/chapters/`](docs/chapters/)
-- 48 道训练：[`docs/appendix/training-path.md`](docs/appendix/training-path.md)
-- 配置：[`docs/.vitepress/config.mts`](docs/.vitepress/config.mts)
-- 部署：[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
+## 现有链接兼容
 
-## GitHub Pages 部署
+原来以 `/chapters/01`、`/start`、`/method`、`/appendix/...` 开头的页面保留一个迁移入口，指向书籍内新地址；不会出现旧链接直接 404。以后请使用新书籍 URL。
 
-代码推送 `main` 后自动执行 GitHub Actions 构建与发布。首次使用需在仓库 **Settings → Pages → Build and deployment** 中将 **Source** 设为 **GitHub Actions**，否则虽可构建成功，但部署会报 404。启用后重试工作流。
+## 教材编辑规则
 
-预计站点地址（须在部署成功后才可访问）：https://a-persimmons.github.io/Mastering-English-Reading/
-
-## 阅读目的
-
-**先找主干，分清修饰和逻辑，再结合语境理解。** 不保证能从孤句猜出所有生词；遇到证据不足的词应查证。自然意译必须保留原文事实与不确定性。
+第一本的审稿记录保存在 [第一本附录](docs/books/reading/appendix/editorial-notes.md)。第二本编写时坚持：每章有真实场景、表达原理、主动生成、跨情境迁移和详解；尚未写完的章节只保留在目录中，**不生成冒充正文的空白页**。
