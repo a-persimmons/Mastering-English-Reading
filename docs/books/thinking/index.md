@@ -7,7 +7,7 @@ title: 英语思维：从中文翻译到英语直觉
 **从中文翻译到英语直觉：让英语直接连接概念、情境与表达。**
 
 ::: info 编写进度
-本书已确定 **7 篇、32 章** 的整体目录，前 **5 章第一版正文已完成**。目前尚处于第一版编写阶段，后续章节与全书审稿仍待推进；这里不会把目录当成已经完成的正文。
+全书 **7 篇、32 章第一版正文已完成**，后续将按系列一的标准完成三轮全书审稿及图解、练习精修。
 :::
 
 ## 这本书解决什么问题？
@@ -29,11 +29,10 @@ title: 英语思维：从中文翻译到英语直觉
 ## 开始阅读
 
 - [读前指南：学习英语思维的训练方法](/books/thinking/guide)
-- [第1章：什么才是真正的英语思维？](/books/thinking/chapters/01)
-- [第2章：为什么我们总是习惯先想中文？](/books/thinking/chapters/02)
-- [第3章：语言、概念与思考之间是什么关系？](/books/thinking/chapters/03)
-- [第4章：如何逐步建立直接理解英语的能力？](/books/thinking/chapters/04)
-- [第5章：英语如何给世界中的事物分类？](/books/thinking/chapters/05)
+- [从第1章开始读](/books/thinking/chapters/01)
+- [继续第6章：动作与事件](/books/thinking/chapters/06)
+- [进入第20章：直接理解英文](/books/thinking/chapters/20)
+- [进入第32章：长期能力系统](/books/thinking/chapters/32)
 - [查看全部32章目录与编写进度](/books/thinking/contents)
 
 ::: tip 两本书的连接点

@@ -242,42 +242,198 @@ export default defineConfig({
 ],
       '/books/thinking/': [
   {
-    "text": "第二本 · 从中文翻译到英语直觉",
+    "text": "第二本 · 英语思维",
     "items": [
       {
         "text": "本书首页",
         "link": "/books/thinking/"
       },
       {
-        "text": "全书目录与编写进度",
+        "text": "32章目录",
         "link": "/books/thinking/contents"
       },
       {
-        "text": "练习原则与阅读指南",
+        "text": "学习指南",
         "link": "/books/thinking/guide"
+      },
+      {
+        "text": "分级迁移训练",
+        "link": "/books/thinking/appendix/training-path"
       }
     ]
   },
   {
-    "text": "第一篇 · 认识英语思维",
+    "text": "第一篇 · 重新认识英语思维",
+    "collapsed": false,
     "items": [
       {
         "text": "1. 什么才是真正的英语思维？",
         "link": "/books/thinking/chapters/01"
       },
-      { "text": "2. 为什么我们总是习惯先想中文？", "link": "/books/thinking/chapters/02" },
-      { "text": "3. 语言、概念与思考之间是什么关系？", "link": "/books/thinking/chapters/03" },
-      { "text": "4. 如何逐步建立直接理解英语的能力？", "link": "/books/thinking/chapters/04" }
+      {
+        "text": "2. 为什么我们总是习惯先想中文？",
+        "link": "/books/thinking/chapters/02"
+      },
+      {
+        "text": "3. 语言、概念与思考之间是什么关系？",
+        "link": "/books/thinking/chapters/03"
+      },
+      {
+        "text": "4. 如何逐步建立直接理解英语的能力？",
+        "link": "/books/thinking/chapters/04"
+      }
     ]
   },
   {
     "text": "第二篇 · 英语概念系统",
-    "collapsed": false,
+    "collapsed": true,
     "items": [
-      { "text": "5. 英语如何给世界中的事物分类？", "link": "/books/thinking/chapters/05" }
+      {
+        "text": "5. 英语如何给世界中的事物分类？",
+        "link": "/books/thinking/chapters/05"
+      },
+      {
+        "text": "6. 英语如何理解动作与事件？",
+        "link": "/books/thinking/chapters/06"
+      },
+      {
+        "text": "7. 为什么英语需要大量词块？",
+        "link": "/books/thinking/chapters/07"
+      },
+      {
+        "text": "8. 英语如何理解空间、方向与位置？",
+        "link": "/books/thinking/chapters/08"
+      },
+      {
+        "text": "9. 英语如何通过熟悉的概念表达抽象思想？",
+        "link": "/books/thinking/chapters/09"
+      }
+    ]
+  },
+  {
+    "text": "第三篇 · 用英语组织信息",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "10. 英语如何选择一句话的出发点？",
+        "link": "/books/thinking/chapters/10"
+      },
+      {
+        "text": "11. 英语如何把一个事件表达清楚？",
+        "link": "/books/thinking/chapters/11"
+      },
+      {
+        "text": "12. 英语怎样看待时间与动作状态？",
+        "link": "/books/thinking/chapters/12"
+      },
+      {
+        "text": "13. 英语如何安排重点与背景？",
+        "link": "/books/thinking/chapters/13"
+      },
+      {
+        "text": "14. 英语如何表达逻辑与判断？",
+        "link": "/books/thinking/chapters/14"
+      }
+    ]
+  },
+  {
+    "text": "第四篇 · 从想法到英语表达",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "15. 如何表达存在、拥有与状态？",
+        "link": "/books/thinking/chapters/15"
+      },
+      {
+        "text": "16. 如何表达感觉、经历与情绪？",
+        "link": "/books/thinking/chapters/16"
+      },
+      {
+        "text": "17. 如何表达愿望、计划、决定与观点？",
+        "link": "/books/thinking/chapters/17"
+      },
+      {
+        "text": "18. 如何使用英语提出请求、拒绝和建议？",
+        "link": "/books/thinking/chapters/18"
+      },
+      {
+        "text": "19. 如何使英语表达自然、准确且得体？",
+        "link": "/books/thinking/chapters/19"
+      }
+    ]
+  },
+  {
+    "text": "第五篇 · 直接理解英语",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "20. 阅读英文时，怎样减少脑内中文翻译？",
+        "link": "/books/thinking/chapters/20"
+      },
+      {
+        "text": "21. 听英语时，为什么认识单词却听不懂？",
+        "link": "/books/thinking/chapters/21"
+      },
+      {
+        "text": "22. 遇到陌生单词，如何不打断理解？",
+        "link": "/books/thinking/chapters/22"
+      },
+      {
+        "text": "23. 怎样理解一个段落，而不只是一个句子？",
+        "link": "/books/thinking/chapters/23"
+      },
+      {
+        "text": "24. 如何理解英语中没有直接说出来的意思？",
+        "link": "/books/thinking/chapters/24"
+      }
+    ]
+  },
+  {
+    "text": "第六篇 · 培养英语内部语言",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "25. 看见一个画面，如何直接用英语描述？",
+        "link": "/books/thinking/chapters/25"
+      },
+      {
+        "text": "26. 别人提出问题时，怎样用英语快速回应？",
+        "link": "/books/thinking/chapters/26"
+      },
+      {
+        "text": "27. 如何开始用英语自言自语？",
+        "link": "/books/thinking/chapters/27"
+      },
+      {
+        "text": "28. 如何用英语解释一个英语概念？",
+        "link": "/books/thinking/chapters/28"
+      },
+      {
+        "text": "29. 如何直接用英语回忆与讲述经历？",
+        "link": "/books/thinking/chapters/29"
+      }
+    ]
+  },
+  {
+    "text": "第七篇 · 用英语完成思考",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "30. 如何用英语解释问题、比较方案和表达观点？",
+        "link": "/books/thinking/chapters/30"
+      },
+      {
+        "text": "31. 如何在真实生活和工作中使用英语思考？",
+        "link": "/books/thinking/chapters/31"
+      },
+      {
+        "text": "32. 如何让英语思维成为长期稳定的能力？",
+        "link": "/books/thinking/chapters/32"
+      }
     ]
   }
 ]
+
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/a-persimmons/Mastering-English-Reading' }],
     search: { provider: 'local', options: { translations: { button: { buttonText: '搜索两本书', buttonAriaLabel: '搜索系列内容' }, modal: { noResultsText: '没有找到相关内容', resetButtonTitle: '清除查询', footer: { selectText: '选择', navigateText: '切换' } } } } },
