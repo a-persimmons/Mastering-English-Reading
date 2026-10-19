@@ -24,7 +24,8 @@ export default defineConfig({
           { text: '系列首页', link: '/' },
           { text: '系列一 · 英语句子解构', link: '/books/reading/' },
           { text: '系列二 · 英语思维', link: '/books/thinking/' },
-          { text: '学习路径', link: '/roadmap' }
+          { text: '学习路径', link: '/roadmap' },
+          { text: '62章配图审阅记录', link: '/visual-review' }
         ]
       },
       { text: 'GitHub', link: 'https://github.com/a-persimmons/Mastering-English-Reading' }

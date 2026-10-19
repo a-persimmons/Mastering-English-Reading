@@ -52,3 +52,7 @@
   }
   .VPHome .VPHero .VPImage { max-width: 100%; max-height: 290px; }
 }
+
+/* Larger, crisp diagrams in book chapters. SVGs remain vector-based on mobile. */
+.vp-doc img[src*="/images/"]{display:block;width:100%;height:auto;max-height:none;margin:1.65rem auto;border:1px solid var(--vp-c-divider);border-radius:14px;background:#f8fafd}
+@media(min-width:1440px){.VPDoc .content-container{max-width:850px!important}}

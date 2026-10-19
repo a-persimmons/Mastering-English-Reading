@@ -53,3 +53,8 @@ npm run docs:build
 ## 教材编辑规则
 
 第一本的审稿记录保存在 [第一本附录](docs/books/reading/appendix/editorial-notes.md)。第二本已完成32章第一版与三轮内部编辑修订，详见 [审稿记录](docs/books/thinking/appendix/editorial-notes.md)。每章从情境、意义和表达出发，提供独立练习与解析；后续仍可根据真实学习者反馈继续迭代。
+
+
+## 62章配图精修
+
+对第一本30章和第二本32章逐章记录是否需要图、理由及插图位置，详情见 [视觉审阅记录](docs/visual-review.md)。新增 SVG 均为源码可维护的本地文件，构建时检查链接和文件路径。
