@@ -264,7 +264,17 @@ export default defineConfig({
       {
         "text": "1. 什么才是真正的英语思维？",
         "link": "/books/thinking/chapters/01"
-      }
+      },
+      { "text": "2. 为什么我们总是习惯先想中文？", "link": "/books/thinking/chapters/02" },
+      { "text": "3. 语言、概念与思考之间是什么关系？", "link": "/books/thinking/chapters/03" },
+      { "text": "4. 如何逐步建立直接理解英语的能力？", "link": "/books/thinking/chapters/04" }
+    ]
+  },
+  {
+    "text": "第二篇 · 英语概念系统",
+    "collapsed": false,
+    "items": [
+      { "text": "5. 英语如何给世界中的事物分类？", "link": "/books/thinking/chapters/05" }
     ]
   }
 ]
