@@ -79,6 +79,17 @@ for(const {name,body} of contents){
   }
   if(name==='index.md') for(const m of body.matchAll(/^\s*link:\s*(\/\S+)\s*$/gm)) checkLink(m[1],name);
 }
+
+for (const { name, body } of contents) {
+  if (!/^books\/(?:reading|thinking)\/(?:chapters\/\d{2}|appendix\/level-[1-4])\.md$/.test(name)) continue;
+  const detailBlocks = [...body.matchAll(/^::: details[^\n]*\n([\s\S]*?)^:::\s*$/gm)];
+  if (detailBlocks.length === 0) errors.push('Missing answer section: ' + name);
+  for (const [index, detail] of detailBlocks.entries()) {
+    if (!/^\s*-\s+\S/m.test(detail[1]))
+      errors.push('Answer details must contain unordered list: ' + name + ' #' + (index + 1));
+  }
+}
+
 const config=fs.readFileSync(path.join(docs,'.vitepress/config.mts'),'utf8');
 for(const m of config.matchAll(/\blink:\s*['"](\/[^'"]+)['"]/g)) checkLink(m[1],'VitePress config');
 if(!config.includes("'/books/reading/'")||!config.includes("'/books/thinking/'"))

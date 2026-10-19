@@ -56,3 +56,29 @@
 /* Larger, crisp diagrams in book chapters. SVGs remain vector-based on mobile. */
 .vp-doc img[src*="/images/"]{display:block;width:100%;height:auto;max-height:none;margin:1.65rem auto;border:1px solid var(--vp-c-divider);border-radius:14px;background:#f8fafd}
 @media(min-width:1440px){.VPDoc .content-container{max-width:850px!important}}
+
+/* Answer keys: clear, readable unordered lists inside collapsible details. */
+.vp-doc .custom-block.details ul {
+  margin: .6rem 0 .3rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+.vp-doc .custom-block.details li {
+  padding-left: .25rem;
+  margin: .5rem 0;
+  line-height: 1.85;
+}
+.vp-doc .custom-block.details li::marker {
+  color: var(--vp-c-brand-1);
+}
+.vp-doc .custom-block.details li strong:first-child {
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+}
+.vp-doc .custom-block.details li + li {
+  margin-top: .65rem;
+}
+@media (max-width: 640px) {
+  .vp-doc .custom-block.details ul { padding-left: 1.25rem; }
+  .vp-doc .custom-block.details li { margin: .45rem 0; line-height: 1.75; }
+}
