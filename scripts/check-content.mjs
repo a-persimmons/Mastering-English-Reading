@@ -95,17 +95,17 @@ const svgDir = path.join(docs, 'public/images');
 const svgFiles = fs.readdirSync(svgDir).filter(name => name.endsWith('.svg'));
 for (const file of svgFiles) {
   const body = fs.readFileSync(path.join(svgDir, file), 'utf8');
-  if (!/<svg\\b/.test(body) || !/\\bviewBox=/.test(body) || !/<\\/svg>\\s*$/.test(body))
+  if (!/<svg\b/.test(body) || !/\bviewBox=/.test(body) || !/<\/svg>\s*$/.test(body))
     errors.push('Malformed SVG wrapper: ' + file);
   const used = contents.some(page => page.body.includes('/images/' + file));
   if (!used) errors.push('Unreferenced illustration: ' + file);
-  if (/&(?!amp;|lt;|gt;|quot;|apos;|#\\d+;|#x[0-9a-fA-F]+;)/.test(body))
+  if (/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/.test(body))
     errors.push('Unescaped XML ampersand: ' + file);
 }
 const audit = path.join(docs, 'visual-review.md');
 if (!exists(audit)) errors.push('Missing chapter-by-chapter visual review');
 else {
-  const rows = (fs.readFileSync(audit, 'utf8').match(/^\\| \\[第 \\d{2} 章\\]\\(\\/books\\//gm) || []).length;
+  const rows = (fs.readFileSync(audit, 'utf8').match(/^\| \[第 \d{2} 章\]\(\/books\//gm) || []).length;
   if (rows !== 62) errors.push('Visual review must cover 62 chapters, found ' + rows);
 }
 
