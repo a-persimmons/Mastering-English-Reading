@@ -12,9 +12,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：The computer won't turn on.
-
-**为什么**：说具体状态，不要在没查证时认定主板坏了。
+- **参考表达：** The computer won't turn on.
+- **解析依据：** 说具体状态，不要在没查证时认定主板坏了。
 
 ::: 
 
@@ -24,9 +23,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：The cat knocked over the cup.
-
-**为什么**：根据已知施事选主动句；与 cup was knocked over 视角不同。
+- **参考表达：** The cat knocked over the cup.
+- **解析依据：** 根据已知施事选主动句；与 cup was knocked over 视角不同。
 
 ::: 
 
@@ -36,9 +34,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：The movie had already started when I arrived.
-
-**为什么**：过去参照点前发生的动作，用 had started 表明先后。
+- **参考表达：** The movie had already started when I arrived.
+- **解析依据：** 过去参照点前发生的动作，用 had started 表明先后。
 
 ::: 
 
@@ -48,9 +45,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I'm reading an English novel these days.
-
-**为什么**：进行体也可覆盖当前阶段的活动。
+- **参考表达：** I'm reading an English novel these days.
+- **解析依据：** 进行体也可覆盖当前阶段的活动。
 
 ::: 
 
@@ -60,9 +56,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I bought a book yesterday. The book is about science.
-
-**为什么**：首次引入后再用 the book 回指，保持信息连贯。
+- **参考表达：** I bought a book yesterday. The book is about science.
+- **解析依据：** 首次引入后再用 the book 回指，保持信息连贯。
 
 ::: 
 
@@ -72,9 +67,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Only three colleagues know about it.
-
-**为什么**：Only 的范围是人数，不能改成“大家都只知道一点”。
+- **参考表达：** Only three colleagues know about it.
+- **解析依据：** Only 的范围是人数，不能改成“大家都只知道一点”。
 
 ::: 
 
@@ -84,9 +78,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：If it doesn't rain tomorrow, we'll go to the park.
-
-**为什么**：if 从句是条件，并不确定明天是否下雨。
+- **参考表达：** If it doesn't rain tomorrow, we'll go to the park.
+- **解析依据：** if 从句是条件，并不确定明天是否下雨。
 
 ::: 
 
@@ -96,9 +89,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：The interface seemed a bit slow in my test.
-
-**为什么**：用 seemed 和 in my test 标注观察范围。
+- **参考表达：** The interface seemed a bit slow in my test.
+- **解析依据：** 用 seemed 和 in my test 标注观察范围。
 
 ::: 
 
@@ -108,9 +100,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I hope the interview went well.
-
-**为什么**：希望与已知事实分开，别说他一定通过。
+- **参考表达：** I hope the interview went well.
+- **解析依据：** 希望与已知事实分开，别说他一定通过。
 
 ::: 
 
@@ -120,9 +111,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I'm still thinking about going away this weekend.
-
-**为什么**：thinking about doing 表考虑，不意味着确定安排。
+- **参考表达：** I'm still thinking about going away this weekend.
+- **解析依据：** thinking about doing 表考虑，不意味着确定安排。
 
 ::: 
 
@@ -132,9 +122,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Could I borrow your pen, please?
-
-**为什么**：borrow 是借入视角，语气较礼貌。
+- **参考表达：** Could I borrow your pen, please?
+- **解析依据：** borrow 是借入视角，语气较礼貌。
 
 ::: 
 
@@ -144,9 +133,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Thanks for inviting me, but I already have plans tonight.
-
-**为什么**：清楚表达拒绝并保持礼貌，不需要捏造理由。
+- **参考表达：** Thanks for inviting me, but I already have plans tonight.
+- **解析依据：** 清楚表达拒绝并保持礼貌，不需要捏造理由。
 
 ::: 
 

@@ -12,9 +12,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I left my work badge on my desk.
-
-**为什么**：leave + 物品 + 地点；不要把 left 当“左边”。
+- **参考表达：** I left my work badge on my desk.
+- **解析依据：** leave + 物品 + 地点；不要把 left 当“左边”。
 
 ::: 
 
@@ -24,9 +23,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：We're running out of water.
-
-**为什么**：running out 强调接近耗尽，与 have run out of 不同。
+- **参考表达：** We're running out of water.
+- **解析依据：** running out 强调接近耗尽，与 have run out of 不同。
 
 ::: 
 
@@ -36,9 +34,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I got a photo from my friend.
-
-**为什么**：get 在此表示收到；不必逐字译“得到”。
+- **参考表达：** I got a photo from my friend.
+- **解析依据：** get 在此表示收到；不必逐字译“得到”。
 
 ::: 
 
@@ -48,9 +45,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：We need three pieces of furniture.
-
-**为什么**：furniture 通常不可数，计数要有单位。
+- **参考表达：** We need three pieces of furniture.
+- **解析依据：** furniture 通常不可数，计数要有单位。
 
 ::: 
 
@@ -60,9 +56,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Two coffees, please.
-
-**为什么**：点单场景下 coffees 可以表示两杯；不意味着两个品种。
+- **参考表达：** Two coffees, please.
+- **解析依据：** 点单场景下 coffees 可以表示两杯；不意味着两个品种。
 
 ::: 
 
@@ -72,9 +67,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I can't afford this computer.
-
-**为什么**：不只评价 expensive，而是明确自身支付能力。
+- **参考表达：** I can't afford this computer.
+- **解析依据：** 不只评价 expensive，而是明确自身支付能力。
 
 ::: 
 
@@ -84,9 +78,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Do you need a hand?
-
-**为什么**：give/lend someone a hand 用于提供帮助；不要按手部器官硬解。
+- **参考表达：** Do you need a hand?
+- **解析依据：** give/lend someone a hand 用于提供帮助；不要按手部器官硬解。
 
 ::: 
 
@@ -96,9 +89,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I'm looking forward to seeing you.
-
-**为什么**：look forward to 中 to 是介词，接 seeing。
+- **参考表达：** I'm looking forward to seeing you.
+- **解析依据：** look forward to 中 to 是介词，接 seeing。
 
 ::: 
 
@@ -108,9 +100,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I'm standing under the bridge.
-
-**为什么**：under 表位置；不能错用 over。
+- **参考表达：** I'm standing under the bridge.
+- **解析依据：** under 表位置；不能错用 over。
 
 ::: 
 
@@ -120,9 +111,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I walked across the street.
-
-**为什么**：across 强调由一侧到另一侧，不等于 along。
+- **参考表达：** I walked across the street.
+- **解析依据：** across 强调由一侧到另一侧，不等于 along。
 
 ::: 
 
@@ -132,9 +122,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：We're building trust.
-
-**为什么**：build 的抽象扩展：逐渐形成某物。
+- **参考表达：** We're building trust.
+- **解析依据：** build 的抽象扩展：逐渐形成某物。
 
 ::: 
 
@@ -144,9 +133,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I have a headache. / My head hurts a lot.
-
-**为什么**：自然句法不同；不能从“我有”推导所有身体描述。
+- **参考表达：** I have a headache. / My head hurts a lot.
+- **解析依据：** 自然句法不同；不能从“我有”推导所有身体描述。
 
 ::: 
 

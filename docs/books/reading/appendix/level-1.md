@@ -12,11 +12,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：The baby slept（SV）。peacefully 是方式状语。
-
-**参考译文**：婴儿睡得很安稳。
-
-**易错点**：副词不是宾语。
+- **结构 / 推理**：The baby slept（SV）。peacefully 是方式状语。
+- **参考译文**：婴儿睡得很安稳。
+- **易错点**：副词不是宾语。
 
 :::
 
@@ -28,11 +26,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：My brother seems worried（SVC）；today 为时间。
-
-**参考译文**：我哥哥今天似乎有些担心。
-
-**易错点**：seems 带不确定语气，不能译“确定很担心”。
+- **结构 / 推理**：My brother seems worried（SVC）；today 为时间。
+- **参考译文**：我哥哥今天似乎有些担心。
+- **易错点**：seems 带不确定语气，不能译“确定很担心”。
 
 :::
 
@@ -44,11 +40,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：We watched the birds（SVO）；in the garden 可表示我们观察的地点，也可能限定鸟的位置，语境决定。
-
-**参考译文**：我们在花园里看鸟。／我们看着花园里的鸟。
-
-**易错点**：孤句语义有歧义，不必强行唯一解释。
+- **结构 / 推理**：We watched the birds（SVO）；in the garden 可表示我们观察的地点，也可能限定鸟的位置，语境决定。
+- **参考译文**：我们在花园里看鸟。／我们看着花园里的鸟。
+- **易错点**：孤句语义有歧义，不必强行唯一解释。
 
 :::
 
@@ -60,11 +54,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：She sent（V）her mother（间接宾语）a photo（直接宾语）。
-
-**参考译文**：她给母亲发了一张照片。
-
-**易错点**：不是 her mother 先变成另一个主语。
+- **结构 / 推理**：She sent（V）her mother（间接宾语）a photo（直接宾语）。
+- **参考译文**：她给母亲发了一张照片。
+- **易错点**：不是 her mother 先变成另一个主语。
 
 :::
 
@@ -76,11 +68,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：The noise kept everyone awake（SVOC）；awake 说明 everyone 的状态。
-
-**参考译文**：那阵噪音让所有人一直醒着。
-
-**易错点**：awake 不是收到的物品。
+- **结构 / 推理**：The noise kept everyone awake（SVOC）；awake 说明 everyone 的状态。
+- **参考译文**：那阵噪音让所有人一直醒着。
+- **易错点**：awake 不是收到的物品。
 
 :::
 
@@ -92,11 +82,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：The tea tastes bitter（SVC），bitter 说明茶的味道。
-
-**参考译文**：这茶喝起来很苦。
-
-**易错点**：不是“茶在品尝苦味”。
+- **结构 / 推理**：The tea tastes bitter（SVC），bitter 说明茶的味道。
+- **参考译文**：这茶喝起来很苦。
+- **易错点**：不是“茶在品尝苦味”。
 
 :::
 
@@ -108,11 +96,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：Two buses arrived（SV）；late 作状语，说明到达时间。
-
-**参考译文**：两辆公交车都晚到了。
-
-**易错点**：late 在这里不等于迟到的某件东西。
+- **结构 / 推理**：Two buses arrived（SV）；late 作状语，说明到达时间。
+- **参考译文**：两辆公交车都晚到了。
+- **易错点**：late 在这里不等于迟到的某件东西。
 
 :::
 
@@ -124,11 +110,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：I need [a quiet place to study]（SVO）；to study 修饰 place，说明要用来学习的地方。
-
-**参考译文**：我需要一个安静的学习场所。
-
-**易错点**：不能把 to study 独立为另一个主句。
+- **结构 / 推理**：I need [a quiet place to study]（SVO）；to study 修饰 place，说明要用来学习的地方。
+- **参考译文**：我需要一个安静的学习场所。
+- **易错点**：不能把 to study 独立为另一个主句。
 
 :::
 
@@ -140,11 +124,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：She made the room clean（SVOC）；clean 是 room 达到的状态。
-
-**参考译文**：她把房间弄干净了。
-
-**易错点**：made 不按“制造”硬翻。
+- **结构 / 推理**：She made the room clean（SVOC）；clean 是 room 达到的状态。
+- **参考译文**：她把房间弄干净了。
+- **易错点**：made 不按“制造”硬翻。
 
 :::
 
@@ -156,11 +138,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：They showed us their new house（SVOO）。
-
-**参考译文**：他们带我们看了他们的新房子。
-
-**易错点**：中文可以换动词以自然表达，但内容仍是 show。
+- **结构 / 推理**：They showed us their new house（SVOO）。
+- **参考译文**：他们带我们看了他们的新房子。
+- **易错点**：中文可以换动词以自然表达，但内容仍是 show。
 
 :::
 
@@ -172,11 +152,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：There were [five people] outside；outside 是地点，不是谓语。
-
-**参考译文**：外面有五个人。
-
-**易错点**：句首 there 不等于“那里”。
+- **结构 / 推理**：There were [five people] outside；outside 是地点，不是谓语。
+- **参考译文**：外面有五个人。
+- **易错点**：句首 there 不等于“那里”。
 
 :::
 
@@ -188,11 +166,9 @@
 
 ::: details 展开结构与参考译法
 
-**结构 / 推理**：he left early 是陈述骨架；did 是过去时提问的助动词；why 问原因。
-
-**参考译文**：他为什么提前离开？
-
-**易错点**：不能把 did 和 leave 算两个独立动作。
+- **结构 / 推理**：he left early 是陈述骨架；did 是过去时提问的助动词；why 问原因。
+- **参考译文**：他为什么提前离开？
+- **易错点**：不能把 did 和 leave 算两个独立动作。
 
 :::
 

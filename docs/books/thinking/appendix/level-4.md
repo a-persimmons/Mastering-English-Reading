@@ -12,9 +12,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：A person is sitting by the window and writing.
-
-**为什么**：不由此推断他在准备考试或写辞职信。
+- **参考表达：** A person is sitting by the window and writing.
+- **解析依据：** 不由此推断他在准备考试或写辞职信。
 
 ::: 
 
@@ -24,9 +23,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Two people are walking together.
-
-**为什么**：不自作主张说情侣或家人。
+- **参考表达：** Two people are walking together.
+- **解析依据：** 不自作主张说情侣或家人。
 
 ::: 
 
@@ -36,9 +34,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Not yet. I'll send it tonight.
-
-**为什么**：短答加下一步计划即可。
+- **参考表达：** Not yet. I'll send it tonight.
+- **解析依据：** 短答加下一步计划即可。
 
 ::: 
 
@@ -48,9 +45,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Could you speak a little more slowly?
-
-**为什么**：说清当前障碍，而不是假装听懂。
+- **参考表达：** Could you speak a little more slowly?
+- **解析依据：** 说清当前障碍，而不是假装听懂。
 
 ::: 
 
@@ -60,9 +56,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I should check the logs first.
-
-**为什么**：自言自语可以是任务规划。
+- **参考表达：** I should check the logs first.
+- **解析依据：** 自言自语可以是任务规划。
 
 ::: 
 
@@ -72,9 +67,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：It's something you carry to keep the rain off you.
-
-**为什么**：用类别/用途绕述，不假装知道精确词。
+- **参考表达：** It's something you carry to keep the rain off you.
+- **解析依据：** 用类别/用途绕述，不假装知道精确词。
 
 ::: 
 
@@ -84,9 +78,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：It's the latest time by which something needs to be finished.
-
-**为什么**：定义体现时间限制，不能只说 it's a time。
+- **参考表达：** It's the latest time by which something needs to be finished.
+- **解析依据：** 定义体现时间限制，不能只说 it's a time。
 
 ::: 
 
@@ -96,9 +89,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I got lost yesterday. Then I used a map to find the station.
-
-**为什么**：按事实顺序，不增添未发生的求助情节。
+- **参考表达：** I got lost yesterday. Then I used a map to find the station.
+- **解析依据：** 按事实顺序，不增添未发生的求助情节。
 
 ::: 
 
@@ -108,9 +100,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Plan A fits my schedule better because I only have thirty minutes a day.
-
-**为什么**：此结论只关于时间适配，不代表学习效果更好。
+- **参考表达：** Plan A fits my schedule better because I only have thirty minutes a day.
+- **解析依据：** 此结论只关于时间适配，不代表学习效果更好。
 
 ::: 
 
@@ -120,9 +111,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：The page was slow during my test. I'll check the logs before drawing a conclusion.
-
-**为什么**：区分观察与尚未证实的原因。
+- **参考表达：** The page was slow during my test. I'll check the logs before drawing a conclusion.
+- **解析依据：** 区分观察与尚未证实的原因。
 
 ::: 
 
@@ -132,9 +122,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：Do you know which phones and app versions are affected?
-
-**为什么**：提出澄清问题，避免假定所有手机都有问题。
+- **参考表达：** Do you know which phones and app versions are affected?
+- **解析依据：** 提出澄清问题，避免假定所有手机都有问题。
 
 ::: 
 
@@ -144,9 +133,8 @@
 
 ::: details 查看参考表达与判断依据
 
-**参考**：I want to understand English more directly and explain my ideas clearly.
-
-**为什么**：表达目标即可，允许不同正确句式。
+- **参考表达：** I want to understand English more directly and explain my ideas clearly.
+- **解析依据：** 表达目标即可，允许不同正确句式。
 
 ::: 
 
