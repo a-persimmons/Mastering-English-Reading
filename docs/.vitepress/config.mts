@@ -259,7 +259,10 @@ export default defineConfig({
       {
         "text": "分级迁移训练",
         "link": "/books/thinking/appendix/training-path"
-      }
+      },
+      { "text": "速查卡", "link": "/books/thinking/appendix/quick-reference" },
+      { "text": "主动练习记录", "link": "/books/thinking/appendix/practice" },
+      { "text": "三轮编辑审稿", "link": "/books/thinking/appendix/editorial-notes" }
     ]
   },
   {

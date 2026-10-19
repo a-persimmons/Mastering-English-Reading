@@ -2,7 +2,7 @@
 
 **《英语思维：从中文翻译到英语直觉》**
 
-本书 **7 篇、32 章正文第一版已全部完成**，目前进入全书编辑、练习强化与图解修订阶段。每章均有独立 Markdown 页面。
+本书 **7 篇、32 章正文第一版已全部完成**，已进行三轮内部编辑审校，并配置 [48道额外分级训练](/books/thinking/appendix/training-path) 与 [速查卡](/books/thinking/appendix/quick-reference)。每章均有独立 Markdown 页面。
 
 ## 第一篇 · 重新认识英语思维
 

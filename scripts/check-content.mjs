@@ -21,23 +21,25 @@ if (fs.readdirSync(readingDir).filter(x => x.endsWith('.md')).length !== 30)
   errors.push('Expected exactly 30 reading chapters');
 
 const thinkingFiles = fs.readdirSync(thinkingDir).filter(x => /^\d\d\.md$/.test(x)).sort();
-if (!thinkingFiles.includes('01.md')) errors.push('The English-thinking introduction chapter is missing');
+const expectedThinking = Array.from({length:32}, (_,i)=>String(i+1).padStart(2,'0')+'.md');
+if (thinkingFiles.length !== 32 || expectedThinking.some(x=>!thinkingFiles.includes(x))) errors.push('Expected exactly 32 numbered thinking chapters');
 for (const name of thinkingFiles) {
   const text = fs.readFileSync(path.join(thinkingDir, name), 'utf8');
-  if (!/^# 第\d+章 /m.test(text)) errors.push('Invalid thinking chapter heading: ' + name);
+  if (!new RegExp('^# 第'+Number(name.slice(0,2))+'章 ').test(text)) errors.push('Invalid thinking chapter heading: ' + name);
+  if (!(text.match(/^::: details(?:\s|$)/gm) || []).length) errors.push('Thinking chapter has no answer explanation: ' + name);
   if (text.length < 1200 || !/练习|任务|自测|测试/.test(text))
     errors.push('Thinking chapter needs a full lesson with practice: ' + name);
 }
 for (const file of ['books/reading/index.md','books/thinking/index.md','books/thinking/contents.md','books/thinking/guide.md','roadmap.md']) {
   if (!exists(path.join(docs,file))) errors.push('Missing series page: ' + file);
 }
-for (let i=1; i<=4; i++) {
+for (const appendix of ['books/reading/appendix','books/thinking/appendix']) for (let i=1; i<=4; i++) {
   const name = 'level-' + i + '.md';
-  const file = path.join(docs, 'books/reading/appendix', name);
-  if (!exists(file)) { errors.push('Missing drill page: ' + name); continue; }
+  const file = path.join(docs, appendix, name);
+  if (!exists(file)) { errors.push('Missing drill page: ' + appendix + '/' + name); continue; }
   const body = fs.readFileSync(file, 'utf8');
   if ((body.match(/^## \d{2} ·/gm) || []).length !== 12)
-    errors.push('Expected 12 extra drills in ' + name);
+    errors.push('Expected 12 extra drills in ' + appendix + '/' + name);
 }
 
 function walk(dir) {
@@ -92,5 +94,5 @@ if (errors.length) {
   for (const error of errors) console.error('ERROR '+error);
   process.exitCode=1;
 } else {
-  console.log('PASS: 30 original chapters, '+thinkingFiles.length+' authored thinking chapter(s), 48 graded drills, '+answers+' answer blocks, '+figures+' figure usages; internal links, series navigation and legacy links valid.');
+  console.log('PASS: 30 reading chapters, '+thinkingFiles.length+' English-thinking chapters, 96 graded drills across both books, '+answers+' answer blocks, '+figures+' figure usages; internal links, series navigation and legacy links valid.');
 }

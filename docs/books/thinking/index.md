@@ -7,7 +7,7 @@ title: 英语思维：从中文翻译到英语直觉
 **从中文翻译到英语直觉：让英语直接连接概念、情境与表达。**
 
 ::: info 编写进度
-全书 **7 篇、32 章第一版正文已完成**，后续将按系列一的标准完成三轮全书审稿及图解、练习精修。
+全书 **7 篇、32 章第一版正文已完成**，并已进行三轮内部编辑审查，补充 48 道分级迁移练习和结构图解。后续仍可根据真实读者错题继续精修。
 :::
 
 ## 这本书解决什么问题？
@@ -33,7 +33,10 @@ title: 英语思维：从中文翻译到英语直觉
 - [继续第6章：动作与事件](/books/thinking/chapters/06)
 - [进入第20章：直接理解英文](/books/thinking/chapters/20)
 - [进入第32章：长期能力系统](/books/thinking/chapters/32)
-- [查看全部32章目录与编写进度](/books/thinking/contents)
+- [查看完整32章目录](/books/thinking/contents)
+- [48道分级迁移练习](/books/thinking/appendix/training-path)
+- [英语表达随手速查卡](/books/thinking/appendix/quick-reference)
+- [三轮编辑审查记录](/books/thinking/appendix/editorial-notes)
 
 ::: tip 两本书的连接点
 碰到复杂句，先回到第一本练**主干与逻辑**；看懂后再返回这本书，练**不依赖逐词翻译直接理解**。
