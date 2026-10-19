@@ -9,3 +9,46 @@
 .VPDoc a[href^="/books/reading/"]{text-underline-offset:3px}
 .VPDoc .custom-block.info{border-radius:12px;border:1px solid var(--vp-c-brand-soft)}
 .VPDoc .custom-block.tip{border-radius:12px}
+
+/* Larger series hero illustration on desktop; keep text and image balanced. */
+@media (min-width: 960px) {
+  .VPHome .VPHero .container {
+    max-width: 1320px;
+    column-gap: 36px;
+  }
+  .VPHome .VPHero .main {
+    flex: 0 1 52%;
+    max-width: 690px;
+  }
+  .VPHome .VPHero .image {
+    flex: 1 1 48%;
+    min-width: 400px;
+    max-width: none;
+  }
+  .VPHome .VPHero .image-container {
+    width: min(100%, 560px);
+    height: 410px;
+    max-width: none;
+    margin-inline: auto;
+  }
+  .VPHome .VPHero .image-src,
+  .VPHome .VPHero .VPImage {
+    width: 100%;
+    max-width: 560px;
+    max-height: none;
+    height: auto;
+    object-fit: contain;
+  }
+}
+@media (min-width: 960px) and (max-width: 1100px) {
+  .VPHome .VPHero .main { flex-basis: 55%; }
+  .VPHome .VPHero .image { flex-basis: 45%; min-width: 330px; }
+  .VPHome .VPHero .image-container { height: 340px; }
+}
+@media (max-width: 959px) {
+  .VPHome .VPHero .image-container {
+    width: min(100%, 520px);
+    height: 300px;
+  }
+  .VPHome .VPHero .VPImage { max-width: 100%; max-height: 290px; }
+}

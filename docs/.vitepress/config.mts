@@ -17,10 +17,16 @@ export default defineConfig({
     logo: '/favicon.svg',
     siteTitle: '英语能力进阶',
     nav: [
-      { text: '系列首页', link: '/' },
-      { text: '第一本 · 句子解构', link: '/books/reading/' },
-      { text: '第二本 · 英语思维', link: '/books/thinking/' },
-      { text: '阅读路径', link: '/roadmap' },
+      {
+        text: '进阶系列',
+        activeMatch: '^/(books|roadmap)(/|$)',
+        items: [
+          { text: '系列首页', link: '/' },
+          { text: '系列一 · 英语句子解构', link: '/books/reading/' },
+          { text: '系列二 · 英语思维', link: '/books/thinking/' },
+          { text: '学习路径', link: '/roadmap' }
+        ]
+      },
       { text: 'GitHub', link: 'https://github.com/a-persimmons/Mastering-English-Reading' }
     ],
     sidebar: {
