@@ -18,4 +18,4 @@
 不能以“全程不想中文”作为唯一通过标准。读对事实、表达得体、遇到不确定主动查证，是更可操作的目标。
 :::
 
-[返回第二本首页](/books/thinking/) · [查看32章目录](/books/thinking/contents)
+[返回第二本首页](/books/thinking/) · [查看32章目录](/books/thinking/contents) · [速查卡](/books/thinking/appendix/quick-reference) · [错题记录](/books/thinking/appendix/practice)

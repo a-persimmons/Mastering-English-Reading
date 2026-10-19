@@ -5,7 +5,7 @@
 | 系列 | 书名 | 状态 | 阅读入口 |
 | --- | --- | --- | --- |
 | 第一本 | 《英语句子解构：从简单句到长难句》 | 30章 + 48道额外练习，已完成 | [进入第一本](docs/books/reading/index.md) |
-| 第二本 | 《英语思维：从中文翻译到英语直觉》 | 7篇32章正文第一版已提交，进行全书审稿 | [进入第二本](docs/books/thinking/index.md) |
+| 第二本 | 《英语思维：从中文翻译到英语直觉》 | 7篇32章正文第一版已完成，三轮内部审校及48道额外训练已补充 | [进入第二本](docs/books/thinking/index.md) |
 
 阅读路径：**读懂句子结构 → 准确理解原意 → 建立英语与情境的直接联系 → 逐步自然表达**。第二本不要求彻底禁止中文；第一本也不是需要死记语法术语的考试教材。
 
@@ -26,7 +26,8 @@ docs/
 │       ├── index.md
 │       ├── contents.md
 │       ├── guide.md
-│       └── chapters/              # 每章一个 Markdown，逐章完成
+│       ├── chapters/01.md ... 32.md  # 第二本32章正文
+│       └── appendix/              # 48题、速查卡、编辑审查记录
 ├── chapters/                      # 旧章节链接兼容提示页
 ├── appendix/                      # 旧工具页兼容提示页
 └── .vitepress/config.mts          # 统一导航、两套侧栏
@@ -51,4 +52,4 @@ npm run docs:build
 
 ## 教材编辑规则
 
-第一本的审稿记录保存在 [第一本附录](docs/books/reading/appendix/editorial-notes.md)。第二本编写时坚持：每章有真实场景、表达原理、主动生成、跨情境迁移和详解；尚未写完的章节只保留在目录中，**不生成冒充正文的空白页**。
+第一本的审稿记录保存在 [第一本附录](docs/books/reading/appendix/editorial-notes.md)。第二本已完成32章第一版与三轮内部编辑修订，详见 [审稿记录](docs/books/thinking/appendix/editorial-notes.md)。每章从情境、意义和表达出发，提供独立练习与解析；后续仍可根据真实学习者反馈继续迭代。
